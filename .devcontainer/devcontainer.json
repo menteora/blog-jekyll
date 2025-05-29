@@ -8,3 +8,4 @@
   "forwardPorts": [4000],
   "postCreateCommand": "bundle install"
 }
+
