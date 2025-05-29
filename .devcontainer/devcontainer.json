@@ -1,0 +1,11 @@
+{
+  "name": "Jekyll Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "jekyll",
+  "workspaceFolder": "/srv/jekyll",
+  "settings": {},
+  "extensions": ["rebornix.Ruby"],
+  "forwardPorts": [4000],
+  "postCreateCommand": "bundle install"
+}
+
